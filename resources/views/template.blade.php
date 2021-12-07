@@ -78,7 +78,7 @@ if (!function_exists('replaceName')) {
             <strong>{{ __('dnd5emonster::template.skills') }}</strong>
             {{ Arr::get($attributes, 'skills') }}<br />
         @endif
-        @if (Arr::get($attributes, 'damage_resistance'))
+        @if (Arr::get($attributes, 'damage_vulnerabilities'))
             <strong>{{ __('dnd5emonster::template.damage_resistance') }}</strong>
             {{ Arr::get($attributes, 'damage_resistance') }}<br />
         @endif
